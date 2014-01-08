@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTENER Kazuya Yokogawa "mapk0y@gmail.com"
+MAINTAINER Kazuya Yokogawa "mapk0y@gmail.com"
 
 RUN echo "deb http://jp.archive.ubuntu.com/ubuntu/ precise main" > /etc/apt/sources.list
 RUN echo "deb http://jp.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
